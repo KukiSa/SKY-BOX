@@ -1,55 +1,55 @@
 # SKY-BOX
-BlueSkyXN  综合工具箱 Linux Supported ONLY
+BlueSkyXN  综合工具箱 Linux Supported ONLY。
+
+因本人对本项目上游项目的安全性与合规性的担忧，特 Fork 此项目并对其进行合规性修改，并恢复部分上游的原始脚本链接，以期实现模块层面的与上游的上游同步。
 
 # 详细说明
 https://www.blueskyxn.com/202104/4465.html
 
 ## 使用方法
 
-wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh
+`wget -O box.sh https://raw.githubusercontent.com/KukiSa/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh`
 
-<pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh</pre>
 
 ### ARM beta使用方法
 
-wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh
+`wget -O box.sh https://raw.githubusercontent.com/KukiSa/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh`
 
-<pre>wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh</pre>
 
 # 功能表
 
- 1. IPV.SH ipv4/6优先级调整一键脚本·下载
- 2. IPT.SH iptable一键脚本
- 3. SpeedTest-Linux 下载
- 4. Rclone&Fclone·下载
- 5. ChangeSource Linux换源脚本·下载
- 6. Besttrace 路由追踪·下载
- 7. NEZHA.SH哪吒面板/探针·下载
+ 1. 下载 IPV.SH IPv4/IPv6 优先级调整一键脚本
+ 2. 下载 IPT.SH iptables 一键脚本（来自 [arloor/iptablesUtils](https://github.com/arloor/iptablesUtils)）
+ 3. 下载 SpeedTest for Linux 并安装为命令
+ 4. 下载 Rclone & Fclone 并安装为命令
+ 5. 下载 ChangeSource Linux 换源脚本
+ 6. 下载 Besttrace 路由追踪并安装为命令
+ 7. 下载并安装 NEZHA.SH 哪吒面板/探针（来自 [duanpingbo/nezha](https://github.com/duanpingbo/nezha)）
  --------------------------------------------------
- 11. 获取本机IP
- 12. 安装最新BBR内核·使用YUM·仅支持CentOS
- 13. 启动BBR FQ算法
- 14. 系统网络配置优化
- 15. Git 新版 安装·仅支持CentOS
+ 11. 获取本机 IP 地址
+ 12. 安装最新 BBR 内核（仅支持 CentOS）
+ 13. 启用 BBR FQ 算法
+ 14. 优化系统网络配置
+ 15. 安装 GIT 新版（仅支持 CentOS）
  16. 宝塔面板 自动磁盘挂载工具
- 17. BBR一键管理脚本
- 18. SWAP一键安装/卸载脚本
+ 17. BBR 一键管理脚本（卸载内核版本，来自 [ylx2016/Linux-NetSpeed](https://github.com/ylx2016/Linux-NetSpeed)）
+ 18. SWAP 一键安装/卸载
  --------------------------------------------------
- 21. Superbench 综合测试
- 22. MT.SH 流媒体解锁测试
- 23. Lemonbench 综合测试
- 24. UNIXbench 综合测试
- 25. 三网Speedtest测速
- 26. Memorytest 内存压力测试
+ 21. Superbench 综合测试（来自 [OLDKing](https://www.oldking.net/350.html)）
+ 22. MT.SH 流媒体解锁测试（来自 [CoiaPrant/MediaUnlock_Test](https://github.com/CoiaPrant/MediaUnlock_Test)）
+ 23. Lemonbench 综合测试（来自 [iLemonrain](https://blog.ilemonrain.com/linux/LemonBench.html)）
+ 24. UNIXbench 综合测试（来自 [teddysun/across](https://github.com/teddysun/across)）
+ 25. 三网 Speedtest 测速
+ 26. Memorytest 内存压力测试（来自 [FunctionClub/Memtester](https://github.com/FunctionClub/Memtester)）
  27. Route-trace 路由追踪测试
- 28. YABS LINUX综合测试
- 29. Disk Test 硬盘&系统综合测试
+ 28. YABS LINUX 综合测试（来自 [masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)）
+ 29. Disk Test 硬盘&系统综合测试（来自 [Aniverse/A](https://github.com/Aniverse/A)）
  --------------------------------------------------
- 210. TubeCheck Google/Youtube CDN分配节点测试
+ 210. TubeCheck Google/YouTube CDN 分配节点测试（来自 [sjlleo/TubeCheck](https://github.com/sjlleo/TubeCheck)）
  --------------------------------------------------
- 31. MTP&TLS 一键脚本
- 32. V2UI 一键脚本
- 33. Aria2 最强安装与管理脚本
+ 31. MTP&TLS 一键脚本（来自 [sunpma/mtp](https://github.com/sunpma/mtp)）
+ 32. V2UI 一键脚本（来自 [sprov](https://github.com/sprov065/v2-ui)）
+ 33. Aria2 最强安装与管理脚本（来自 [P3TERX/aria2.sh](https://github.com/P3TERX/aria2.sh)）
  --------------------------------------------------
  41. 宝塔面板 官方版·一键安装
  42. 宝塔面板 官方版·一键更新
